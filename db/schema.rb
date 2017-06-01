@@ -13,6 +13,7 @@
 ActiveRecord::Schema.define(version: 20170601115833) do
 
   # These are extensions that must be enabled in order to support this database
+
   enable_extension "plpgsql"
 
   create_table "posts", force: :cascade do |t|
@@ -21,5 +22,4 @@ ActiveRecord::Schema.define(version: 20170601115833) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
-
 end
